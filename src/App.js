@@ -1,12 +1,16 @@
 import "./App.css";
 import FeatureCard from "./components/FeatureCard";
 import { Send, Shield, BarChart3, Clock } from "lucide-react";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
+    <div className="mb-16">
+      <Navbar />
+    </div>
       {/* Hero component start */}
-      <section className="text-white h-screen overflow-hidden">
+      <section className="text-white h-screen pt-10 overflow-hidden">
         <div className="relative">
           <img
             src="./images/bg.png"
