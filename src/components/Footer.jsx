@@ -23,7 +23,8 @@ const Footer = () => {
           <div className="text-center md:text-left md:w-1/3">
             <h3 className="text-5xl font-bold text-gray-800 mb-4">Stay Connected</h3>
             <p className="text-gray-600 mb-6">
-              Join us on our arctic blockchain journey
+            Our support team is highly responsive and will get back to you within <b>2 hours</b>. Let’s build
+            something amazing together!
             </p>
           </div>
 

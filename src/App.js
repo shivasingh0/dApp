@@ -9,6 +9,7 @@ import 'aos/dist/aos.css';
 import Reflect from "./components/Reflect";
 import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
+import About from "./components/About";
 
 function App() {
   useEffect(() => {
@@ -32,6 +33,7 @@ function App() {
     </div>
 
     <Reflect />
+    <About />
     <ContactForm />
     <Footer/>
    </div>

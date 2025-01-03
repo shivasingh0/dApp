@@ -39,10 +39,10 @@ export const BackgroundText = () => {
   }, []);
 
   return (
-    <div className="absolute  top-40 w-full flex justify-center items-center z-10 overflow-hidden">
+    <div className="absolute top-40 w-full flex justify-center items-center z-10">
       <h1
         ref={textRef}
-        className="text-[#3D3D3D] font-sans text-[12rem] font-black tracking-tighter select-none"
+        className="text-[#3D3D3D] text-center font-sans text-[12rem] font-black tracking-tighter select-none"
       >
         DAPP STUDIO
       </h1>

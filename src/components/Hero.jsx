@@ -48,16 +48,24 @@ export const Hero = () => {
             </div>
 
             {/* Call to Action Card */}
-            <div className="w-full max-w-4xl mx-auto -mt-20">
-              <div className="bg-white/80 backdrop-blur-lg rounded-2xl shadow-xl p-12">
-                <div className="flex items-center justify-between">
-                  <h2 className="text-3xl font-bold text-gray-800 max-w-md">
-                    Building the Future of Web3 with the Strength of the Arctic
-                  </h2>
-                  <Button text={"Get Started"} />
-                </div>
-              </div>
-            </div>
+            <div className="w-full max-w-6xl mx-auto -mt-20 px-4 sm:px-6 lg:px-8">
+  <div className="bg-white/80 backdrop-blur-lg rounded-2xl shadow-xl p-6 sm:p-8 lg:p-12">
+    <div className="flex flex-col lg:flex-row items-center justify-between space-y-6 lg:space-y-0">
+      <div className="text-center lg:text-left">
+        {/* <p className="text-base sm:text-lg text-gray-600">
+          At dApp Studio, we create cutting-edge Web3 solutions, from blockchain websites and dApps to NFT platforms and DeFi systems. Whatever your vision, we’re here to bring it to life.
+        </p> */}
+        <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mt-4">
+        Your Gateway to Web3 Innovation
+        </h2>
+      </div>
+      <div className="flex justify-center lg:justify-end">
+        <Button text={"Get Started"} />
+      </div>
+    </div>
+  </div>
+</div>
+
           </div>
         </div>
       </div>

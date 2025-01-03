@@ -1,6 +1,5 @@
 import React from "react";
 import Form from "./subComponents/Form";
-import SnowfallEffect from "./subComponents/SnowfallEffect";
 
 const ContactForm = () => {
   return (
@@ -30,9 +29,8 @@ const ContactForm = () => {
                 Get in Touch
               </h1>
               <p className="text-lg text-gray-600">
-                Have questions or want to collaborate? Drop us a message, and
-                our friendly polar bear will make sure it gets to the right
-                place!
+              Ready to bring your Web3 ideas to life? We’d love to hear from you! You can <b>contact us on
+              Telegram</b> for instant communication, or simply <b>fill out the form below</b> to get started.
               </p>
               <Form />
             </div>

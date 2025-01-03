@@ -16,18 +16,18 @@ export const Header = () => {
 
           <nav className="hidden md:flex items-center gap-6 lg:gap-14 font-normal text-black">
             <a
-              href="#"
+              href="#about"
               className="hover:text-[#3D3D3D] text-sm lg:text-lg transition-all ease-in-out rounded-lg 
     hover:border-[4px] hover:border-[#000] border-[4px] border-transparent px-6 py-1"
             >
               ABOUT
             </a>
             <a
-              href="#"
+              href="#why-us"
               className="hover:text-gray-700 text-sm lg:text-lg transition-all ease-in-out rounded-lg
     hover:border-[4px] hover:border-[#000] border-[4px] border-transparent px-6 py-1"
             >
-              TOKENOMICS
+              WHY US
             </a>
             <a
               href="#"
