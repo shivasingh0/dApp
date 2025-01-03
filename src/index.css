@@ -1,7 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-color: black;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Archivo Black";
+  overflow-x: hidden;
+  background-color: black;
+  color: white;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes marquee2 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-marquee {
+  animation: marquee linear infinite;
+}
+
+.animate-marquee2 {
+  animation: marquee2 linear infinite;
+}
+
+/* From Uiverse.io by MuhammadHasann */ 
+button {
+  position: relative;
+  border: 3px solid #000000;
+  border-radius: 8px;
+  padding: 12px 35px;
+  background: #ffffff;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000000;
+  box-shadow: 0 0 0 #f3f6f4;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.star-1 {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 25px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #9fc5e8);
+  z-index: -5;
+  transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
+}
+
+.star-2 {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  width: 15px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #9fc5e8);
+  z-index: -5;
+  transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-3 {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  width: 5px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #9fc5e8);
+  z-index: -5;
+  transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-4 {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  width: 8px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #9fc5e8);
+  z-index: -5;
+  transition: all 0.8s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-5 {
+  position: absolute;
+  top: 25%;
+  left: 45%;
+  width: 15px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #9fc5e8);
+  z-index: -5;
+  transition: all 0.6s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-6 {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  width: 5px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #9fc5e8);
+  z-index: -5;
+  transition: all 0.8s ease;
+}
+
+button:hover {
+  background: #686868;
+  color: white;
+  box-shadow: 0 0 25px #686868;
+  border: 3px solid #000000;
+  border-radius: 8px;
+}
+
+button:hover .star-1 {
+  position: absolute;
+  top: -80%;
+  left: -30%;
+  width: 25px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #9fc5e8);
+  z-index: 2;
+}
+
+button:hover .star-2 {
+  position: absolute;
+  top: -25%;
+  left: 10%;
+  width: 15px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #9fc5e8);
+  z-index: 2;
+}
+
+button:hover .star-3 {
+  position: absolute;
+  top: 55%;
+  left: 25%;
+  width: 5px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #9fc5e8);
+  z-index: 2;
+}
+
+button:hover .star-4 {
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  width: 8px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #9fc5e8);
+  z-index: 2;
+}
+
+button:hover .star-5 {
+  position: absolute;
+  top: 25%;
+  left: 115%;
+  width: 15px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #9fc5e8);
+  z-index: 2;
+}
+
+button:hover .star-6 {
+  position: absolute;
+  top: 5%;
+  left: 60%;
+  width: 5px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #9fc5e8);
+  z-index: 2;
+}
+
+.fil0 {
+  fill: #9fc5e8;
+}
+
+@keyframes snowfall {
+  0% {
+    transform: translateY(-10vh) translateX(0);
+  }
+  100% {
+    transform: translateY(100vh) translateX(20px);
+  }
+}
+
+.snow {
+  position: absolute;
+  width: var(--size);
+  height: var(--size);
+  /* background: black; */
+  content: "❄️";
+  border-radius: 50%;
+  left: var(--left);
+  animation: snowfall var(--duration) linear var(--delay) infinite;
+  opacity: 0.8;
+  filter: blur(1px);
+}
+
+@keyframes wave {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(30deg); }
+}
+
+.animate-wave {
+  animation: wave 2s ease-in-out infinite;
+}
+
+.animate-bounce-slow {
+  animation: bounce 3s ease-in-out infinite;
 }
