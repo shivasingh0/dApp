@@ -14,7 +14,7 @@ export const BackgroundText = () => {
     const tl = gsap.timeline({
         scrollTrigger: {
           trigger: element,
-          start: 'top 75%', // Trigger when the top of the element hits 75% of the viewport
+          start: 'top 45%', // Trigger when the top of the element hits 75% of the viewport
           end: 'bottom 15%', // End when the bottom of the element reaches 15% of the viewport
           scrub: 1, // Sync animation with scroll position
           toggleActions: 'restart pause reverse pause', // Pause and reverse the animation when scrolling back
@@ -39,7 +39,7 @@ export const BackgroundText = () => {
   }, []);
 
   return (
-    <div className="absolute top-40 w-full flex justify-center items-center z-10 overflow-hidden">
+    <div className="absolute  top-40 w-full flex justify-center items-center z-10 overflow-hidden">
       <h1
         ref={textRef}
         className="text-[#3D3D3D] font-sans text-[12rem] font-black tracking-tighter select-none"

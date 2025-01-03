@@ -8,6 +8,7 @@ import Aos from "aos";
 import 'aos/dist/aos.css';
 import Reflect from "./components/Reflect";
 import ContactForm from "./components/ContactForm";
+import Footer from "./components/Footer";
 
 function App() {
   useEffect(() => {
@@ -32,6 +33,9 @@ function App() {
 
     <Reflect />
     <ContactForm />
+    <div className="mt-96">
+    <Footer/>
+    </div>
    </div>
   );
 }

@@ -4,7 +4,7 @@ import Button from "./Button";
 export const Header = () => {
   return (
     <div>
-      <div className="w-full bg-white fixed bg-opacity-70 backdrop-filter backdrop-blur-lg z-50 flex items-center justify-between px-4 sm:px-6 lg:px-8">
+      <div className="w-full bg-gradient-to-b from-sky-0 to-white  overflow-hidden fixed bg-opacity-70 backdrop-filter backdrop-blur-lg z-50 flex items-center justify-between px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between w-full">
           <img
             src="/assets/logo.png"
