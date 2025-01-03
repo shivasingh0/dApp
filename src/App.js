@@ -33,9 +33,7 @@ function App() {
 
     <Reflect />
     <ContactForm />
-    <div className="mt-96">
     <Footer/>
-    </div>
    </div>
   );
 }

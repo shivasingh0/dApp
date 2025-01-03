@@ -54,7 +54,7 @@ export const Hero = () => {
                   <h2 className="text-3xl font-bold text-gray-800 max-w-md">
                     Building the Future of Web3 with the Strength of the Arctic
                   </h2>
-                  <Button />
+                  <Button text={"Get Started"} />
                 </div>
               </div>
             </div>

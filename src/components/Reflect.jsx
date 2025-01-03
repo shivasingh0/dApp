@@ -43,7 +43,7 @@ const Reflect = () => {
             <img
               src="/assets/polarBeer/laptop.gif"
               alt="Reflection"
-              className="w-[400px] h-[400px] object-cover transform scale-y-[-1] opacity-30"
+              className="w-[500px] h-[500px] object-cover transform scale-y-[-1] opacity-30"
               style={{
                 maskImage:
                   "linear-gradient(to top, rgba(0,0,0,1) -100%, rgba(0,0,0,0))",

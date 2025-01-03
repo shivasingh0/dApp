@@ -1,12 +1,11 @@
 import React from 'react';
 import { Github, Twitter, Linkedin, Mail } from 'lucide-react';
-import SnowfallEffect from './subComponents/SnowfallEffect';
 
 const Footer = () => {
   return (
   
     <footer className="w-full">
-      <div className="w-full  bg-gradient-to-b from-sky-200 to-white relative overflow-hidden">
+      <div className="w-full bg-gradient-to-b from-white to-sky-100 relative overflow-hidden">
       {/* Snowy Texture Background */}
       <div className="absolute inset-0 opacity-20" />
       <div className="max-w-7xl mx-auto px-4 py-8">
@@ -30,16 +29,16 @@ const Footer = () => {
 
           {/* Social links */}
           <div className="flex relative z-50 gap-6 md:w-1/3 justify-center md:justify-end ">
-            <a href="#" className="p-3 bg-gray-50 rounded-full text-gray-700  hover:bg-black transition-colors hover:text-white ">
+            <a href="#" className="p-3 bg-gray-50 rounded-full hover:shadow-xl text-gray-700  hover:bg-black transition-colors hover:text-white ">
               <Github className="w-6 h-6  cursor-pointer " />
             </a>
-            <a href="#" className="p-3 bg-gray-50 rounded-full text-gray-700 hover:bg-black transition-colors hover:text-white">
+            <a href="#" className="p-3 bg-gray-50 rounded-full hover:shadow-xl text-gray-700 hover:bg-black transition-colors hover:text-white">
               <Twitter className="w-6 h-6  cursor-pointer hover:text-white" />
             </a>
-            <a href="#" className="p-3 bg-gray-50 rounded-full text-gray-700 hover:bg-black transition-colors hover:text-white">
+            <a href="#" className="p-3 bg-gray-50 rounded-full hover:shadow-xl text-gray-700 hover:bg-black transition-colors hover:text-white">
               <Linkedin className="w-6 h-6  cursor-pointer hover:text-white" />
             </a>
-            <a href="#" className="p-3 bg-gray-50 rounded-full text-gray-700 hover:bg-black transition-colors hover:text-white">
+            <a href="#" className="p-3 bg-gray-50 rounded-full hover:shadow-xl text-gray-700 hover:bg-black transition-colors hover:text-white">
               <Mail className="w-6 h-6  cursor-pointer hover:text-white" />
             </a>
           </div>

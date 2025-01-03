@@ -18,28 +18,28 @@ export const Header = () => {
             <a
               href="#"
               className="hover:text-[#3D3D3D] text-sm lg:text-lg transition-all ease-in-out rounded-lg 
-    hover:border-[4px] hover:border-[#000] border-[4px] border-transparent px-2 py-1"
+    hover:border-[4px] hover:border-[#000] border-[4px] border-transparent px-6 py-1"
             >
               ABOUT
             </a>
             <a
               href="#"
               className="hover:text-gray-700 text-sm lg:text-lg transition-all ease-in-out rounded-lg
-    hover:border-[4px] hover:border-[#000] border-[4px] border-transparent px-2 py-1"
+    hover:border-[4px] hover:border-[#000] border-[4px] border-transparent px-6 py-1"
             >
               TOKENOMICS
             </a>
             <a
               href="#"
               className="hover:text-gray-700 text-sm lg:text-lg transition-all ease-in-out rounded-lg
-    hover:border-[4px] hover:border-[#000] border-[4px] border-transparent px-2 py-1"
+    hover:border-[4px] hover:border-[#000] border-[4px] border-transparent px-6 py-1"
             >
               BUY
             </a>
             <a
               href="#"
               className="hover:text-gray-700 text-sm lg:text-lg transition-all ease-in-out rounded-lg
-    hover:border-[4px] hover:border-[#000] border-[4px] border-transparent px-2 py-1"
+    hover:border-[4px] hover:border-[#000] border-[4px] border-transparent px-6 py-1"
             >
               FAQS
             </a>
