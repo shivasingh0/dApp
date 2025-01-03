@@ -7,6 +7,7 @@ import Marquee from "./components/Marquee";
 import Aos from "aos";
 import 'aos/dist/aos.css'; 
 import { BackgroundText } from "./components/subComponents/BackgroundText";
+import Footer from "./components/Footer";
 
 function App() {
   useEffect(() => {
@@ -27,6 +28,9 @@ function App() {
           <Marquee direction="right" speed={20} />
         </div>
       </div>
+    </div>
+    <div className="mt-96">
+    <Footer/>
     </div>
    </div>
   );
