@@ -5,8 +5,9 @@ import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import Marquee from "./components/Marquee";
 import Aos from "aos";
-import 'aos/dist/aos.css'; 
-import { BackgroundText } from "./components/subComponents/BackgroundText";
+import 'aos/dist/aos.css';
+import Reflect from "./components/Reflect";
+import ContactForm from "./components/ContactForm";
 
 function App() {
   useEffect(() => {
@@ -28,6 +29,9 @@ function App() {
         </div>
       </div>
     </div>
+
+    <Reflect />
+    <ContactForm />
    </div>
   );
 }

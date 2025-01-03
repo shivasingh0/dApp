@@ -21,7 +21,7 @@ export const Feature = () => {
             the chart can jump at any moment.
           </p>
           <div >
-          <Button />
+          <Button text={"Contact Us"} />
           </div>
         </div>
       </div>

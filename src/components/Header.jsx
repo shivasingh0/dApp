@@ -46,11 +46,11 @@ export const Header = () => {
           </nav>
 
           <div className="hidden md:block">
-            <Button />
+            <Button text={"Contact Us"} />
           </div>
 
           <div className="md:hidden">
-            <Button />
+            <Button text={"Contact Us"} />
           </div>
         </div>
       </div>

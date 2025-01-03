@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Button = () => {
+const Button = ({text, bg}) => {
   return (
     <>
-    <button>
-      Contact Us
+    <button className={bg}>
+      {text}
       <div className="star-1">
         <svg
           xmlns="http://www.w3.org/2000/svg"
