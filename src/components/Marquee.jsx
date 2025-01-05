@@ -6,7 +6,7 @@ const Marquee = ({ direction = 'left', speed = 20 }) => {
   const bgColor = direction === 'left' ? 'bg-[#3D3D3D]' : 'bg-[#014DDF]';
   
   return (
-    <div className={`relative flex overflow-hidden ${bgColor}`}>
+    <div className={`relative flex overflow-hidden ${bgColor} scale-105`}>
       <div
         className="flex animate-marquee whitespace-nowrap"
         style={{ animationDuration: `${speed}s`, animationDirection: direction === 'left' ? 'normal' : 'reverse' }}

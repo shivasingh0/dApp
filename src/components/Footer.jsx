@@ -1,5 +1,6 @@
 import React from 'react';
 import { Github, Twitter, Linkedin, Mail } from 'lucide-react';
+import { RippleComp } from './RippleCopm';
 
 const Footer = () => {
   return (
@@ -12,11 +13,12 @@ const Footer = () => {
         <div className="flex  items-center justify-between gap-8">
           {/* Left side with image */}
           <div data-aos="fade-right"  data-aos-duration="2000" className="relative  w-full md:w-1/3">
-            <img 
+          <RippleComp />
+            {/* <img 
               src="/assets/polarBeer/footer.gif"
               alt="Snowy Landscape"
               className="w-full rounded-lg "
-            />
+            /> */}
           </div>
 
           {/* Center content */}
